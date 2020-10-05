@@ -26,16 +26,16 @@ The main dataset is `en-wikipedia_traffic_200712-202008.csv`
 It contains page view information for wikipedia from January 2008 to September 2020
 Below are the columns in the csv
 
-| **Column**                  | **Value**     | **Data type** | **Description**                                                  |
-| ----------------------- | --------- | --------- | ---------------------------------------------------------------- |
-| year                    | YYYY      | int       | This contains the year of the page views                         |
-| month                   | MM        | int       | This contains the month for the page views                       |
-| pagecount_all_views     | num_views | double    | total pageviews for all access types using legacy pagecounts api |
-| pagecount_desktop_views | num_views | double    | total pageviews for desktop using legacy pagecounts api          |
-| pagecount_mobile_views  | num_views | double    | total pageviews for mobile using legacy pagecounts api           |
-| pageview_all_views      | num_views | double    | total pageviews for all access types using new pageviews api     |
-| pageview_desktop_views  | num_views | double    | total pageviews for desktop using new pageviews api              |
-| pageview_mobile_views   | num_views | double    | total pageviews for mobile using new pageviews api               |
+| **Column**              | **Value** | **Data type** | **Description**                                                  |
+| ----------------------- | --------- | ---------     | ---------------------------------------------------------------- |
+| year                    | YYYY      | int           | This contains the year of the page views                         |
+| month                   | MM        | int           | This contains the month for the page views                       |
+| pagecount_all_views     | num_views | double        | total pageviews for all access types using legacy pagecounts api |
+| pagecount_desktop_views | num_views | double        | total pageviews for desktop using legacy pagecounts api          |
+| pagecount_mobile_views  | num_views | double        | total pageviews for mobile using legacy pagecounts api           |
+| pageview_all_views      | num_views | double        | total pageviews for all access types using new pageviews api     |
+| pageview_desktop_views  | num_views | double        | total pageviews for desktop using new pageviews api              |
+| pageview_mobile_views   | num_views | double        | total pageviews for mobile using new pageviews api               |
 
 
 ## Known Issues/Special Considerations
