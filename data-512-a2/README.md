@@ -13,6 +13,9 @@ As part of this assignment project, we want to study these datasets and try to i
 To use the data, we needed to use
 1. Figshare datasets specifically for aggressiveness in text and toxicity. Which can be found [here](https://figshare.com/projects/Wikipedia_Talk/16731)
 2. The [Detox wiki page](https://meta.wikimedia.org/wiki/Research:Detox)
-3. [rspective API repository](https://www.perspectiveapi.com/#/home) - wiki page [here](https://github.com/conversationai/perspectiveapi/blob/master/2-api/methods.md)
+3. [Perspective API repository](https://www.perspectiveapi.com/#/home) - wiki page [here](https://github.com/conversationai/perspectiveapi/blob/master/2-api/methods.md)
 
 ## Data description
+Detailed data description can be found [here](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release)
+
+## Notebook used in analysis
