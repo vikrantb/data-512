@@ -1,12 +1,12 @@
-# README
+# Bias in Data
+1 README file in .txt or .md format that contains a brief summary of the assignment goals, and links to the Figshare datasets, the Detox wiki page, and the Perspective API repository on GitHub.
 
 ## Goal
-The goal of this project is to gather, process and analyze the pageviews information for english wikipedia from 2008 to current.
+The goal of this project is to identify what, if any, sources of bias may exist in various Wikipedia talk corpus datasets, and to develop testable hypotheses about how these biases might impact the behavior of machine learning models trained on the data, when those models are used for research purposes or to power data-driven applications. 
 
-In order to measure Wikipedia traffic from 2008-2020, we will need to collect data from two different API endpoints, the Legacy Pagecounts API and the Pageviews API.
+Google data scientists used these [annotated datasets](https://figshare.com/projects/Wikipedia_Talk/16731) to train machine learning models as part of a project called Conversation AI. The models have been used in a variety of software products and made freely accessible to anyone through the Perspective API. 
 
-1. The Legacy Pagecounts API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts), [endpoint](https://wikimedia.org/api/rest_v1/#!/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end )) provides access to desktop and mobile traffic data from December 2007 through July 2016.
-2. The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
+As part of this assignment project, we want to study these datasets and try to identify potential biases or potential unintended negative consequences.
 
 ## Data Citations
 
